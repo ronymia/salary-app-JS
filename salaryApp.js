@@ -89,6 +89,8 @@ function addRecordHandler() {
   }
 
   addRecord(name, salary);
+
+  // clear the name & salary field
   document.getElementById("name").value = '';
   document.getElementById("salary").value = '';
 }
